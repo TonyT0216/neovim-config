@@ -60,6 +60,7 @@ return packer.startup(function(use)
     use 'folke/neodev.nvim'
     use 'jose-elias-alvarez/null-ls.nvim'
     use 'jayp0521/mason-null-ls.nvim'
+    -- }
 
     if PACKER_BOOTSTRAP then
         require("packer").sync()
