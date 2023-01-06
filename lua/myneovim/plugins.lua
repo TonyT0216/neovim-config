@@ -50,7 +50,7 @@ return packer.startup(function(use)
     use 'savq/melange'
     -- }
 
-    -- LSP
+    -- LSP {
     use 'neovim/nvim-lspconfig'
     use 'williamboman/mason.nvim'
     use 'williamboman/mason-lspconfig'
