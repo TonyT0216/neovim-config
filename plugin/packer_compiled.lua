@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/tonyt/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/tonyt/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/tonyt/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/tonyt/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/tonyt/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "/home/tony/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/tony/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/tony/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/tony/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/tony/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -76,72 +76,77 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   everforest = {
     loaded = true,
-    path = "/home/tonyt/.local/share/nvim/site/pack/packer/start/everforest",
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/everforest",
     url = "https://github.com/sainnhe/everforest"
   },
   ["fidget.nvim"] = {
     loaded = true,
-    path = "/home/tonyt/.local/share/nvim/site/pack/packer/start/fidget.nvim",
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/fidget.nvim",
     url = "https://github.com/j-hui/fidget.nvim"
   },
   ["inlay-hints.nvim"] = {
     loaded = true,
-    path = "/home/tonyt/.local/share/nvim/site/pack/packer/start/inlay-hints.nvim",
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/inlay-hints.nvim",
     url = "https://github.com/simrat39/inlay-hints.nvim"
   },
   ["mason-lspconfig"] = {
     loaded = true,
-    path = "/home/tonyt/.local/share/nvim/site/pack/packer/start/mason-lspconfig",
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/mason-lspconfig",
     url = "https://github.com/williamboman/mason-lspconfig"
+  },
+  ["mason-null-ls.nvim"] = {
+    loaded = true,
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/mason-null-ls.nvim",
+    url = "https://github.com/jayp0521/mason-null-ls.nvim"
   },
   ["mason-tool-installer.nvim"] = {
     loaded = true,
-    path = "/home/tonyt/.local/share/nvim/site/pack/packer/start/mason-tool-installer.nvim",
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/mason-tool-installer.nvim",
     url = "https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim"
   },
   ["mason.nvim"] = {
     loaded = true,
-    path = "/home/tonyt/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
   melange = {
     loaded = true,
-    path = "/home/tonyt/.local/share/nvim/site/pack/packer/start/melange",
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/melange",
     url = "https://github.com/savq/melange"
   },
   ["neodev.nvim"] = {
     loaded = true,
-    path = "/home/tonyt/.local/share/nvim/site/pack/packer/start/neodev.nvim",
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/neodev.nvim",
     url = "https://github.com/folke/neodev.nvim"
   },
   ["nightfox.nvim"] = {
     loaded = true,
-    path = "/home/tonyt/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
     url = "https://github.com/EdenEast/nightfox.nvim"
   },
   ["null-ls.nvim"] = {
     loaded = true,
-    path = "/home/tonyt/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
     url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/home/tonyt/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/tonyt/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   sonokai = {
     loaded = true,
-    path = "/home/tonyt/.local/share/nvim/site/pack/packer/start/sonokai",
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/sonokai",
     url = "https://github.com/sainnhe/sonokai"
   },
   ["tokyonight.nvim"] = {
     loaded = true,
-    path = "/home/tonyt/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   }
 }
