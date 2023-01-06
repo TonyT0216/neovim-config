@@ -18,6 +18,10 @@ This is definitely worth getting if you prefer to use neovim's nightly version i
 
 ## Plugins Installed
 
+### File Explorer
+
+- [kyazdani42/nvim-tree](https://github.com/kyazdani42/nvim-tree.lua) in place of netrw.
+
 ### LSP
 
 - [mason](https://github.com/williamboman/mason.nvim) for providing a hub for installing formatters, linters, and servers.

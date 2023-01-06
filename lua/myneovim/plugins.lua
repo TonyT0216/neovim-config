@@ -42,6 +42,16 @@ packer.init({
 return packer.startup(function(use)
     use { "wbthomason/packer.nvim" }
 
+    -- Bars and Lines {
+
+    -- Cursor Lines
+    use {
+        'yamatsum/nvim-cursorline',
+    }
+    -- End
+
+    -- }
+
     -- Colorscheme {
     use 'cpea2506/one_monokai.nvim'
     use 'EdenEast/nightfox.nvim'
@@ -61,6 +71,16 @@ return packer.startup(function(use)
     use 'hrsh7th/cmp-nvim-lua'
     use 'hrsh7th/cmp-path'
     use 'saadparwaiz1/cmp_luasnip'
+    -- }
+
+    -- File Explorer {
+    use {
+        'nvim-tree/nvim-tree.lua',
+        requires = {
+            'nvim-tree/nvim-web-devicons',
+        },
+        tag = 'nightly',
+    }
     -- }
 
     -- Fuzzy Finder {
