@@ -65,7 +65,6 @@ return packer.startup(function(use)
     use 'neovim/nvim-lspconfig'
     use 'williamboman/mason.nvim'
     use 'williamboman/mason-lspconfig'
-    use 'WhoIsSethDaniel/mason-tool-installer.nvim'
     use 'simrat39/inlay-hints.nvim'
     use 'j-hui/fidget.nvim'
     use 'folke/neodev.nvim'
