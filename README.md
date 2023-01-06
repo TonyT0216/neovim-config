@@ -18,6 +18,13 @@ This is definitely worth getting if you prefer to use neovim's nightly version i
 
 ## Plugins Installed
 
+### Syntax
+
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) for syntax highlighting.
+
+Currently, the setup will automatically install the syntax highlighting for css, help, html, javascript, lua, php, phpdoc, query, scss, typescript,  and vim.
+
+
 ### Startup
 
 - [goolord/alpha.nvim](https://github.com/goolord/alpha-nvim)
