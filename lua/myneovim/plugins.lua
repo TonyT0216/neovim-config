@@ -43,11 +43,15 @@ return packer.startup(function(use)
     use { "wbthomason/packer.nvim" }
 
     -- Colorscheme {
+    use 'cpea2506/one_monokai.nvim'
     use 'EdenEast/nightfox.nvim'
     use 'folke/tokyonight.nvim'
+    use 'kvrohit/substrata.nvim'
+    use 'ldelossa/vimdark'
     use 'sainnhe/everforest'
     use 'sainnhe/sonokai'
     use 'savq/melange'
+    use 'shaunsingh/moonlight.nvim'
     -- }
 
     -- Fuzzy Finder {

@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "/home/tony/.local/share/nvim/site/pack/packer/start/melange",
     url = "https://github.com/savq/melange"
   },
+  ["moonlight.nvim"] = {
+    loaded = true,
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/moonlight.nvim",
+    url = "https://github.com/shaunsingh/moonlight.nvim"
+  },
   ["neodev.nvim"] = {
     loaded = true,
     path = "/home/tony/.local/share/nvim/site/pack/packer/start/neodev.nvim",
@@ -149,6 +154,11 @@ _G.packer_plugins = {
     path = "/home/tony/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
+  ["one_monokai.nvim"] = {
+    loaded = true,
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/one_monokai.nvim",
+    url = "https://github.com/cpea2506/one_monokai.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/tony/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -169,6 +179,11 @@ _G.packer_plugins = {
     path = "/home/tony/.local/share/nvim/site/pack/packer/start/sonokai",
     url = "https://github.com/sainnhe/sonokai"
   },
+  ["substrata.nvim"] = {
+    loaded = true,
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/substrata.nvim",
+    url = "https://github.com/kvrohit/substrata.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/tony/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -178,6 +193,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/tony/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
+  },
+  vimdark = {
+    loaded = true,
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/vimdark",
+    url = "https://github.com/ldelossa/vimdark"
   }
 }
 

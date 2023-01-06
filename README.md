@@ -1,6 +1,6 @@
+
 # Neovim IDE Configuration
 
-***
 
 ## Citations & Inspirations
 
@@ -20,14 +20,14 @@ This is definitely worth getting if you prefer to use neovim's nightly version i
 
 ### Syntax
 
-- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) for syntax highlighting.
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) for syntax highlighting across multiple file types.
 
 Currently, the setup will automatically install the syntax highlighting for css, help, html, javascript, lua, php, phpdoc, query, scss, typescript,  and vim.
 
 
 ### Startup
 
-- [goolord/alpha.nvim](https://github.com/goolord/alpha-nvim)
+- [goolord/alpha.nvim](https://github.com/goolord/alpha-nvim) is used for the startup screen.
 
 #### Dependencies
 [nvim-telescope](https://github.com/nvim-telescope/telescope.nvim) is used for fuzzy finding files when the dashboard opens.
