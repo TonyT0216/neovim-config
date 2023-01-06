@@ -54,10 +54,19 @@ return packer.startup(function(use)
     use 'shaunsingh/moonlight.nvim'
     -- }
 
+    -- Completion {
+    use 'hrsh7th/nvim-cmp'
+    use 'hrsh7th/cmp-buffer'
+    use 'hrsh7th/cmp-nvim-lsp'
+    use 'hrsh7th/cmp-nvim-lua'
+    use 'hrsh7th/cmp-path'
+    use 'saadparwaiz1/cmp_luasnip'
+    -- }
+
     -- Fuzzy Finder {
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.0',
-        requires = { {'nvim-lua/plenary.nvim'} }
+        requires = { { 'nvim-lua/plenary.nvim' } }
     }
     -- }
 
@@ -80,7 +89,7 @@ return packer.startup(function(use)
     -- }
 
     -- Syntax Highlighting {
-    use ({'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'})
+    use({ 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' })
     use 'nvim-treesitter/playground'
     -- }
 
