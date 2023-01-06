@@ -15,3 +15,12 @@ My thanks to the following for making my Neovim journey an awesome experience.
 - Use a Neovim version manager, like [Bob](https://github.com/MordechaiHadad/bob).
 
 This is definitely worth getting if you prefer to use neovim's nightly version in lieu of the stable version.
+
+## Plugins Installed
+
+### Startup
+
+- [goolord/alpha.nvim](https://github.com/goolord/alpha-nvim)
+
+#### Dependencies
+[nvim-telescope](https://github.com/nvim-telescope/telescope.nvim) is used for fuzzy finding files when the dashboard opens.

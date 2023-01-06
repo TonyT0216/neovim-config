@@ -50,6 +50,13 @@ return packer.startup(function(use)
     use 'savq/melange'
     -- }
 
+    -- Fuzzy Finder {
+    use {
+        'nvim-telescope/telescope.nvim', tag = '0.1.0',
+        requires = { {'nvim-lua/plenary.nvim'} }
+    }
+    -- }
+
     -- LSP {
     use 'neovim/nvim-lspconfig'
     use 'williamboman/mason.nvim'
@@ -60,6 +67,13 @@ return packer.startup(function(use)
     use 'folke/neodev.nvim'
     use 'jose-elias-alvarez/null-ls.nvim'
     use 'jayp0521/mason-null-ls.nvim'
+    -- }
+
+    -- Startup {
+    use {
+        'goolord/alpha-nvim',
+        requires = { 'nvim-tree/nvim-web-devicons' },
+    }
     -- }
 
     if PACKER_BOOTSTRAP then
