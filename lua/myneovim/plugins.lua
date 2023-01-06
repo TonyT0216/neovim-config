@@ -76,6 +76,11 @@ return packer.startup(function(use)
     }
     -- }
 
+    -- Syntax Highlighting {
+    use ({'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'})
+    use 'nvim-treesitter/playground'
+    -- }
+
     if PACKER_BOOTSTRAP then
         require("packer").sync()
     end
