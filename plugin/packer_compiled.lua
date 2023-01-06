@@ -79,6 +79,31 @@ _G.packer_plugins = {
     path = "/home/tony/.local/share/nvim/site/pack/packer/start/alpha-nvim",
     url = "https://github.com/goolord/alpha-nvim"
   },
+  ["cmp-buffer"] = {
+    loaded = true,
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/cmp-buffer",
+    url = "https://github.com/hrsh7th/cmp-buffer"
+  },
+  ["cmp-nvim-lsp"] = {
+    loaded = true,
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+  },
+  ["cmp-nvim-lua"] = {
+    loaded = true,
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/cmp-nvim-lua",
+    url = "https://github.com/hrsh7th/cmp-nvim-lua"
+  },
+  ["cmp-path"] = {
+    loaded = true,
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/cmp-path",
+    url = "https://github.com/hrsh7th/cmp-path"
+  },
+  cmp_luasnip = {
+    loaded = true,
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
+    url = "https://github.com/saadparwaiz1/cmp_luasnip"
+  },
   everforest = {
     loaded = true,
     path = "/home/tony/.local/share/nvim/site/pack/packer/start/everforest",
@@ -103,11 +128,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/tony/.local/share/nvim/site/pack/packer/start/mason-null-ls.nvim",
     url = "https://github.com/jayp0521/mason-null-ls.nvim"
-  },
-  ["mason-tool-installer.nvim"] = {
-    loaded = true,
-    path = "/home/tony/.local/share/nvim/site/pack/packer/start/mason-tool-installer.nvim",
-    url = "https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim"
   },
   ["mason.nvim"] = {
     loaded = true,
@@ -138,6 +158,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/tony/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
     url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
+  },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-lspconfig"] = {
     loaded = true,

@@ -18,6 +18,13 @@ This is definitely worth getting if you prefer to use neovim's nightly version i
 
 ## Plugins Installed
 
+### LSP
+
+- [mason](https://github.com/williamboman/mason.nvim) for providing a hub for installing formatters, linters, and servers.
+- [mason-lspconfig](https://github.com/williamboman/mason-lspconfig.nvim) for providing additional functionality.
+- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) provides configs for the Nvim lsp client.
+
+
 ### Syntax
 
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) for syntax highlighting across multiple file types.
