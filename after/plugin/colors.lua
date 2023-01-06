@@ -1,4 +1,11 @@
-require('nightfox').setup({
+-- s/o ThePrimeagen
+
+-- This is needed since this will prevent an error when Neovim's init.lua
+-- is first called from a fresh install.
+local has_nightfox, nightfox = pcall(require, 'nightfox')
+if not has_nightfox then return end
+
+nightfox.setup({
     disable_background = true
 })
 
