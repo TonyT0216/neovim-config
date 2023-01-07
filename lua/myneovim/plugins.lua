@@ -81,6 +81,9 @@ return packer.startup(function(use)
         },
         tag = 'nightly',
     }
+    use {
+        'elihunter173/dirbuf.nvim',
+    }
     -- }
 
     -- Fuzzy Finder {
