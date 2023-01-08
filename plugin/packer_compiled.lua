@@ -114,16 +114,6 @@ _G.packer_plugins = {
     path = "/home/tonyt/.local/share/nvim/site/pack/packer/start/everforest",
     url = "https://github.com/sainnhe/everforest"
   },
-  ["fidget.nvim"] = {
-    loaded = true,
-    path = "/home/tonyt/.local/share/nvim/site/pack/packer/start/fidget.nvim",
-    url = "https://github.com/j-hui/fidget.nvim"
-  },
-  ["inlay-hints.nvim"] = {
-    loaded = true,
-    path = "/home/tonyt/.local/share/nvim/site/pack/packer/start/inlay-hints.nvim",
-    url = "https://github.com/simrat39/inlay-hints.nvim"
-  },
   ["mason-lspconfig"] = {
     loaded = true,
     path = "/home/tonyt/.local/share/nvim/site/pack/packer/start/mason-lspconfig",
@@ -133,6 +123,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/tonyt/.local/share/nvim/site/pack/packer/start/mason-null-ls.nvim",
     url = "https://github.com/jayp0521/mason-null-ls.nvim"
+  },
+  ["mason-tool-installer.nvim"] = {
+    loaded = true,
+    path = "/home/tonyt/.local/share/nvim/site/pack/packer/start/mason-tool-installer.nvim",
+    url = "https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim"
   },
   ["mason.nvim"] = {
     loaded = true,
@@ -148,11 +143,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/tonyt/.local/share/nvim/site/pack/packer/start/moonlight.nvim",
     url = "https://github.com/shaunsingh/moonlight.nvim"
-  },
-  ["neodev.nvim"] = {
-    loaded = true,
-    path = "/home/tonyt/.local/share/nvim/site/pack/packer/start/neodev.nvim",
-    url = "https://github.com/folke/neodev.nvim"
   },
   ["nightfox.nvim"] = {
     loaded = true,

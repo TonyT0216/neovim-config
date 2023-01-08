@@ -89,7 +89,7 @@ return packer.startup(function(use)
     -- Fuzzy Finder {
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.0',
-        requires = { { 'nvim-lua/plenary.nvim' } }
+        requires = { { 'nvim-lua/plenary.nvim' } },
     }
     -- }
 
@@ -97,9 +97,7 @@ return packer.startup(function(use)
     use 'neovim/nvim-lspconfig'
     use 'williamboman/mason.nvim'
     use 'williamboman/mason-lspconfig'
-    use 'simrat39/inlay-hints.nvim'
-    use 'j-hui/fidget.nvim'
-    use 'folke/neodev.nvim'
+    use 'WhoIsSethDaniel/mason-tool-installer.nvim'
     use 'jose-elias-alvarez/null-ls.nvim'
     use 'jayp0521/mason-null-ls.nvim'
     -- }
