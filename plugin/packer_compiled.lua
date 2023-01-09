@@ -74,10 +74,20 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  LuaSnip = {
+    loaded = true,
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/LuaSnip",
+    url = "https://github.com/L3MON4D3/LuaSnip"
+  },
   ["alpha-nvim"] = {
     loaded = true,
     path = "/home/tony/.local/share/nvim/site/pack/packer/start/alpha-nvim",
     url = "https://github.com/goolord/alpha-nvim"
+  },
+  ["better-escape.nvim"] = {
+    loaded = true,
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/better-escape.nvim",
+    url = "https://github.com/max397574/better-escape.nvim"
   },
   ["cmp-buffer"] = {
     loaded = true,
@@ -99,6 +109,11 @@ _G.packer_plugins = {
     path = "/home/tony/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
+  ["cmp-under-comparator"] = {
+    loaded = true,
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/cmp-under-comparator",
+    url = "https://github.com/lukas-reineke/cmp-under-comparator"
+  },
   cmp_luasnip = {
     loaded = true,
     path = "/home/tony/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
@@ -118,6 +133,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/tony/.local/share/nvim/site/pack/packer/start/hardmode",
     url = "https://github.com/wikitopian/hardmode"
+  },
+  ["lspkind.nvim"] = {
+    loaded = true,
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/lspkind.nvim",
+    url = "https://github.com/onsails/lspkind.nvim"
   },
   ["mason-lspconfig"] = {
     loaded = true,
@@ -159,6 +179,11 @@ _G.packer_plugins = {
     path = "/home/tony/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
     url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
   },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/tony/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -183,6 +208,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/tony/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["nvim-treesitter-textobjects"] = {
+    loaded = true,
+    path = "/home/tony/.local/share/nvim/site/pack/packer/start/nvim-treesitter-textobjects",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
