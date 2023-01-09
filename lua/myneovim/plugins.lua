@@ -50,6 +50,13 @@ return packer.startup(function(use)
     }
     -- End
 
+    -- Statusline
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'kyazdani42/nvim-web-devicons' }
+    }
+    -- End
+
     -- }
 
     -- Colorscheme {
@@ -108,7 +115,7 @@ return packer.startup(function(use)
     use 'WhoIsSethDaniel/mason-tool-installer.nvim'
     use 'jose-elias-alvarez/null-ls.nvim'
     use 'jayp0521/mason-null-ls.nvim'
-    use 'onsails/lspkind.nvim'
+    use 'RRethy/vim-illuminate'
     -- }
 
     -- Startup {
@@ -122,6 +129,7 @@ return packer.startup(function(use)
     use({ 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' })
     use 'nvim-treesitter/playground'
     use 'nvim-treesitter/nvim-treesitter-textobjects'
+    use 'nvim-treesitter/nvim-treesitter-context'
     -- }
 
     -- Utilities {
