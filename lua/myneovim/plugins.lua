@@ -114,6 +114,10 @@ return packer.startup(function(use)
     use 'nvim-treesitter/playground'
     -- }
 
+    -- Utilities {
+    use 'wikitopian/hardmode'
+    -- }
+
     if PACKER_BOOTSTRAP then
         require("packer").sync()
     end
