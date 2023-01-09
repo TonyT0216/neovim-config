@@ -70,7 +70,15 @@ return packer.startup(function(use)
     use 'hrsh7th/cmp-nvim-lsp'
     use 'hrsh7th/cmp-nvim-lua'
     use 'hrsh7th/cmp-path'
+    use 'L3MON4D3/LuaSnip'
+    use 'lukas-reineke/cmp-under-comparator'
     use 'saadparwaiz1/cmp_luasnip'
+    -- }
+
+    -- Editing Support {
+    use {
+        'windwp/nvim-autopairs',
+    }
     -- }
 
     -- File Explorer {
@@ -100,6 +108,7 @@ return packer.startup(function(use)
     use 'WhoIsSethDaniel/mason-tool-installer.nvim'
     use 'jose-elias-alvarez/null-ls.nvim'
     use 'jayp0521/mason-null-ls.nvim'
+    use 'onsails/lspkind.nvim'
     -- }
 
     -- Startup {
@@ -112,9 +121,13 @@ return packer.startup(function(use)
     -- Syntax Highlighting {
     use({ 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' })
     use 'nvim-treesitter/playground'
+    use 'nvim-treesitter/nvim-treesitter-textobjects'
     -- }
 
     -- Utilities {
+    use {
+        'max397574/better-escape.nvim'
+    }
     use 'wikitopian/hardmode'
     -- }
 

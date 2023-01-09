@@ -11,12 +11,21 @@ end
 local tree_cb = nvim_tree_config.nvim_tree_callback
 
 nvim_tree.setup {
+    disable_netrw = false,
+    hijack_cursor = true,
+    hijack_netrw = true,
     update_focused_file = {
         enable = true,
         update_cwd = true,
     },
     renderer = {
+        full_name = true,
+        group_empty = true,
+        indent_markers = {
+            enable = true,
+        },
         root_folder_modifier = ":t",
+        special_files = {},
         icons = {
             glyphs = {
                 default = "",

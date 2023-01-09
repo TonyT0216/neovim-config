@@ -37,4 +37,22 @@ configs.setup({
         lint_events = {"BufWrite", "CursorHold"},
     },
 
+    textobjects = {
+        select = {
+            enable = true,
+            lookahead = true,
+        },
+        keymaps = {
+          -- You can use the capture groups defined in textobjects.scm
+          ["af"] = "@function.outer",
+          ["if"] = "@function.inner",
+          ["ac"] = "@class.outer",
+          ["ic"] = { query = "@class.inner", desc = "Select inner part of a class region" },
+        },
+        selection_modes = {
+          ["@parameter.outer"] = "v", -- charwise
+          ["@function.outer"] = "V", -- linewise
+          ["@class.outer"] = "<c-v>", -- blockwise
+        },
+    }
 })
